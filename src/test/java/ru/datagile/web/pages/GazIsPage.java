@@ -9,8 +9,7 @@ import static com.codeborne.selenide.Selenide.$$;
 public class GazIsPage {
     SelenideElement
             ITEM_PRODUCTS = $$(".main-nav__item-link").get(1),
-            ANKEY_LINK = $("[href='/produkty/upravlenie-ib/ankey-idm']"),
-            H1 = $("h1");
+            ANKEY_LINK = $("[href='/produkty/upravlenie-ib/ankey-idm']");
 
 
     @Step("Click to item Products")
