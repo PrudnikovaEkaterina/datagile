@@ -16,15 +16,4 @@ public record Main(
         Integer pressure,
         Integer humidity
 ) {
-        @Override
-        public String toString() {
-                return "Main{" +
-                        "temp=" + temp +
-                        ", feelsLike=" + feelsLike +
-                        ", tempMin=" + tempMin +
-                        ", temp_max=" + temp_max +
-                        ", pressure=" + pressure +
-                        ", humidity=" + humidity +
-                        '}';
-        }
 }

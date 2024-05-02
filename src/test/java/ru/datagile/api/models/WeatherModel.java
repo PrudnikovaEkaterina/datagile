@@ -9,11 +9,4 @@ public record WeatherModel(
         String description,
         String icon
 ) {
-    @Override
-    public String toString() {
-        return "WeatherModel{" +
-                "id=" + id +
-                ", main='" + main + '\'' +
-                ", description='" + description + '\'';
-    }
 }

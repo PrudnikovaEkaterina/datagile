@@ -8,11 +8,4 @@ public record Wind(
         Integer speed,
         Integer deg
 ) {
-    @Override
-    public String toString() {
-        return "Wind{" +
-                "speed=" + speed +
-                ", deg=" + deg +
-                '}';
-    }
 }

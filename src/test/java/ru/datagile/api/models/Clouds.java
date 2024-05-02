@@ -6,10 +6,4 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public record Clouds(
         Integer all) {
-    @Override
-    public String toString() {
-        return "Clouds{" +
-                "all=" + all +
-                '}';
-    }
 }
