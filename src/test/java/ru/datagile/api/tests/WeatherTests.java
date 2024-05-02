@@ -5,6 +5,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import ru.datagile.api.models.Root;
 
+import java.util.Date;
+
 import static io.restassured.RestAssured.given;
 
 public class WeatherTests {
@@ -28,5 +30,7 @@ public class WeatherTests {
         root.weather().forEach(System.out::println);
         System.out.println(root.main());
         System.out.println(root.wind());
+        Date current = new Date();
+        System.out.println("Current date and time: "+current);
     }
 }
